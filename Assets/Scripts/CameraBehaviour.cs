@@ -39,8 +39,10 @@ public class CameraBehaviour : MonoBehaviour
             rotX -= mouseY * mouseSensitivity * Time.deltaTime;
 
             rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
+
+            Player.transform.forward = Quaternion.Euler(rotX, rotY, 0.0f).eulerAngles;
             
-            transform.rotation = Quaternion.Euler(rotX, rotY, 0.0f);
+            //transform.rotation = Quaternion.Euler(rotX, rotY, 0.0f);
         }
         
         //this is to make the camara face the same direction as the character
