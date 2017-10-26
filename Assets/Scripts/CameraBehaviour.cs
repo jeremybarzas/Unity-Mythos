@@ -17,6 +17,7 @@ public class CameraBehaviour : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
+        
         Vector3 rot = transform.localRotation.eulerAngles;
         rotY = rot.y;
         rotX = rot.x;
@@ -25,13 +26,10 @@ public class CameraBehaviour : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+
         transform.forward = Player.transform.forward;
 
-        if (Input.GetKey(KeyCode.LeftAlt))
-        {
-            transform.forward = Player.transform.forward;
-
-            //this is to rotate camera with mouse or joystick
+        //this is to rotate camera with mouse or joystick
             float mouseX = Input.GetAxis("Mouse X");
             float mouseY = Input.GetAxis("Mouse Y");
 
@@ -39,11 +37,10 @@ public class CameraBehaviour : MonoBehaviour
             rotX -= mouseY * mouseSensitivity * Time.deltaTime;
 
             rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
-
-            Player.transform.forward = Quaternion.Euler(rotX, rotY, 0.0f).eulerAngles;
             
-            //transform.rotation = Quaternion.Euler(rotX, rotY, 0.0f);
-        }
+
+            transform.rotation = Quaternion.Euler(rotX, rotY, 0.0f);
+            
         
         //this is to make the camara face the same direction as the character
         transform.position = Player.transform.position;
