@@ -6,7 +6,7 @@ public class CameraBehaviour : MonoBehaviour
 {
     public GameObject Player;
 
-    public float mouseSensitivity = 100.0f;
+    public float rightStickSensitivy = 100.0f;
     public float clampAngle = 80.0f;
 
     float distance;
@@ -30,11 +30,11 @@ public class CameraBehaviour : MonoBehaviour
         transform.forward = Player.transform.forward;
 
         //this is to rotate camera with mouse or joystick
-            float mouseX = Input.GetAxis("Mouse X");
-            float mouseY = Input.GetAxis("Mouse Y");
+            float controllerX = Input.GetAxis("RightStickX");
+            float controllerY = Input.GetAxis("RightStickY");
 
-            rotY += mouseX * mouseSensitivity * Time.deltaTime;
-            rotX -= mouseY * mouseSensitivity * Time.deltaTime;
+            rotY += controllerX * rightStickSensitivy * Time.deltaTime;
+            rotX -= controllerY * rightStickSensitivy * Time.deltaTime;
 
             rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
             
