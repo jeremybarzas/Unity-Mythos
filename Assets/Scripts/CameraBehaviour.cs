@@ -39,9 +39,13 @@ public class CameraBehaviour : MonoBehaviour
             rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
             
 
-            transform.rotation = Quaternion.Euler(rotX, rotY, 0.0f);
-            
-        
+            transform.rotation = Quaternion.Euler(rotX, -rotY, 0.0f);
+
+        if(Input.GetKey(KeyCode.JoystickButton11))
+        {
+            transform.forward = Player.transform.forward;
+        }
+                
         //this is to make the camara face the same direction as the character
         transform.position = Player.transform.position;
        
