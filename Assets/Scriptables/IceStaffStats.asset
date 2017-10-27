@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45d41e37f81873f4b9f21d178a6ad90e, type: 3}
-  m_Name: 
+  m_Name: IceStaffStats
   m_EditorClassIdentifier: 
   _stats:
   - {fileID: 11400000, guid: afff1fd5381392f4590c81750ceb9f61, type: 2}
