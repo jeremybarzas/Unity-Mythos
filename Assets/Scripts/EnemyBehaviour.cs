@@ -19,7 +19,8 @@ public class EnemyBehaviour : EntityBehaviour, IDamageable
     }
 
     public void TakeDamage(int amount)
-    { 
+    {
+        GetComponent<AudioSource>().Play();
         config["Health"].Value -= amount;        
     }
 

@@ -15,12 +15,13 @@ public class PlayerBehaviour : EntityBehaviour, IDamageable
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButtonDown("Fire1"))
             _weaponAnimator.SetTrigger("swing");
     }
 
     public void TakeDamage(int amount)
     {
+        GetComponent<AudioSource>().Play();
         config["Health"].Value -= amount;       
     }
 }
