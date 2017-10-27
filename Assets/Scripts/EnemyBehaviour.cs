@@ -23,6 +23,7 @@ public class EnemyBehaviour : EntityBehaviour, IDamageable
         config["Health"].Value -= amount;        
     }
 
+    //comment this out to make enemy do what you want or delete it and do what you want
     private void Update()
     {
         swingTimer -= Time.deltaTime;
