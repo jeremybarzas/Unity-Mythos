@@ -8,7 +8,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fd27cd9c77f717439041d74a9873bed, type: 3}
-  m_Name: New Sword
+  m_Script: {fileID: 11500000, guid: 45d41e37f81873f4b9f21d178a6ad90e, type: 3}
+  m_Name: FireStaffStats
   m_EditorClassIdentifier: 
-  damageAmount: 6
+  _stats:
+  - {fileID: 11400000, guid: 5158d4bb80f993644bec6daae1c4c3d8, type: 2}
+  _statNames:
+  - Damage
