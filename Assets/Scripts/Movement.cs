@@ -4,25 +4,21 @@ using UnityEngine;
 public class Movement : MonoBehaviour {
 
     public float speed;
-    public float rotationSpeed;
 
-    float horizontal;
-    float vertical;
+    float leftStickX;
+    float leftStickZ;
 
 
     void Move()
     {
-        float mouseX = Input.GetAxis("Mouse X");
-
-        horizontal = Input.GetAxis("Horizontal") * rotationSpeed;
-        vertical = Input.GetAxis("Vertical") * speed;
+        leftStickX = Input.GetAxis("LeftStickX") * speed;
+        leftStickZ = Input.GetAxis("LeftStickZ") * speed;
 
 
-        horizontal *= Time.deltaTime;
-        vertical *= Time.deltaTime;
+        leftStickX *= Time.deltaTime;
+        leftStickZ *= Time.deltaTime;
 
-        transform.Translate(horizontal, 0, vertical);
-        transform.Rotate(0, mouseX, 0);
+        transform.Translate(leftStickX, 0, -leftStickZ);
     }
 
 
