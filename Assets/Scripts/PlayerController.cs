@@ -1,26 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float movementSpeed;    
+    public GameObject camera;
 
-    float horizontal;
-    float vertical;
+    public float movementSpeed;
 
     void Move()
     {   
         // Keyboard transform of player
-        horizontal = Input.GetAxis("Horizontal") * movementSpeed * Time.deltaTime;
-        vertical = Input.GetAxis("Vertical") * movementSpeed * Time.deltaTime; ;      
+        float horizontal = Input.GetAxis("Horizontal") * movementSpeed * Time.deltaTime;
+        float vertical = Input.GetAxis("Vertical") * movementSpeed * Time.deltaTime;      
         
         transform.Translate(horizontal, 0, vertical);
 
-        // Mouse rotate of player
-        float mouseX = Input.GetAxis("Mouse X");
-
-        transform.Rotate(0, mouseX, 0);
+        transform.localRotation = new Quaternion(transform.rotation.x, camera.transform.localRotation.y, transform.rotation.z, transform.rotation.w);
     }
 
     // Use this for initialization
