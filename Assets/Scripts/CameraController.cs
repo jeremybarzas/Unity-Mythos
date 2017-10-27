@@ -1,16 +1,32 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class CameraController : MonoBehaviour {
+public class CameraController : MonoBehaviour
+{
+    public GameObject player;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public float mouseSensitivity = 100;
+
+    float rotX;
+    float rotY;
+
+    // Use this for initialization
+    void Start()
+    {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //this is to rotate camera with mouse or joystick
+        float mouseX = Input.GetAxis("Mouse X");
+        float mouseY = Input.GetAxis("Mouse Y");
+
+        rotY += mouseX * mouseSensitivity * Time.deltaTime;
+        rotX -= mouseY * mouseSensitivity * Time.deltaTime;
+
+        transform.rotation = Quaternion.Euler(rotX, rotY, 0.0f);
+
+        //this is to make the camara face the same direction as the character
+        transform.position = player.transform.position;
+    }
 }
