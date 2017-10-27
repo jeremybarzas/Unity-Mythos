@@ -13,8 +13,8 @@ public class PlayerController : MonoBehaviour
         float vertical = Input.GetAxis("Vertical") * movementSpeed * Time.deltaTime;      
         
         transform.Translate(horizontal, 0, vertical);
-
-        transform.localRotation = new Quaternion(transform.rotation.x, camera.transform.localRotation.y, transform.rotation.z, transform.rotation.w);
+               
+        transform.rotation = new Quaternion(transform.rotation.x, camera.transform.localRotation.y, transform.rotation.z, transform.rotation.w);        
     }
 
     // Use this for initialization
