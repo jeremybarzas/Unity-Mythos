@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class CopyRotationBehaviour : MonoBehaviour
 {
-    public GameObject player;
+    public Transform copyFrom;    
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
-        
-	}
+        transform.rotation = new Quaternion(transform.rotation.x, copyFrom.rotation.y, transform.rotation.z, transform.rotation.w);
+    }
 	
 	// Update is called once per frame
 	void Update ()
     {
-        //float MouseY = Input.GetAxis("MouseY");
-        transform.rotation = new Quaternion(transform.rotation.x, player.transform.rotation.y, transform.rotation.z, transform.rotation.w);
+        transform.rotation = new Quaternion(transform.rotation.x, copyFrom.rotation.y, transform.rotation.z, transform.rotation.w);
 	}
 }
