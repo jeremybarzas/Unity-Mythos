@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-public class EntityBehaviour : MonoBehaviour 
+public abstract class EntityBehaviour : MonoBehaviour 
 {
-    public PlayerConfig config;
+    public Stats config;
 }
