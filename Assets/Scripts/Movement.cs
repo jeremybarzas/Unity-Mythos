@@ -19,8 +19,7 @@ public class Movement : MonoBehaviour {
         horizontal *= Time.deltaTime;
         vertical *= Time.deltaTime;
 
-        transform.Translate(0, 0, vertical);
-        transform.Rotate(0, horizontal, 0);
+        transform.Translate(horizontal, 0, vertical);
     }
 
 
