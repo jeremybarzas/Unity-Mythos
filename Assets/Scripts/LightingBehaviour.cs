@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LightingBehaviour : MonoBehaviour {
 
-    public float speed;
+    public float speed = .8f;
 
 	// Use this for initialization
 	void Start ()
