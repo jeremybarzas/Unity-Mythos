@@ -12,6 +12,8 @@ public class Movement : MonoBehaviour {
 
     void Move()
     {
+        float mouseX = Input.GetAxis("Mouse X");
+
         horizontal = Input.GetAxis("Horizontal") * rotationSpeed;
         vertical = Input.GetAxis("Vertical") * speed;
 
@@ -20,6 +22,7 @@ public class Movement : MonoBehaviour {
         vertical *= Time.deltaTime;
 
         transform.Translate(horizontal, 0, vertical);
+        transform.Rotate(0, mouseX, 0);
     }
 
 
