@@ -266,7 +266,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -304,8 +304,1008 @@ ModelImporter:
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
-    human: []
-    skeleton: []
+    human:
+    - boneName: Monkeyman_Rig_TrajectorySHJnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Leg_HipSHJnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Leg_HipSHJnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Leg_KneeSHJnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Leg_KneeSHJnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Leg_AnkleSHJnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Leg_AnkleSHJnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_Spine_01SHJnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_Spine_02SHJnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_Neck_01SHJnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_Neck_TopSHJnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Arm_ClavicleSHJnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Arm_ClavicleSHJnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Arm_ShoulderSHJnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Arm_ShoulderSHJnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Arm_ElbowSHJnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Arm_ElbowSHJnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Arm_WristSHJnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Arm_WristSHJnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Leg_ToeSHJnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Leg_ToeSHJnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Eye_01SHJnt
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Eye_01SHJnt
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_Head_JawSHJnt
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Thumb_01_01SHJnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Thumb_01_02SHJnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Thumb_01_03SHJnt
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_01_01SHJnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_01_02SHJnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_01_03SHJnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_02_01SHJnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_02_02SHJnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_02_03SHJnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_03_01SHJnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_03_02SHJnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_03_03SHJnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_04_01SHJnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_04_02SHJnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_l_Finger_04_03SHJnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Thumb_01_01SHJnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Thumb_01_02SHJnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Thumb_01_03SHJnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_01_01SHJnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_01_02SHJnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_01_03SHJnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_02_01SHJnt
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_02_02SHJnt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_02_03SHJnt
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_03_01SHJnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_03_02SHJnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_03_03SHJnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_04_01SHJnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_04_02SHJnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_r_Finger_04_03SHJnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Monkeyman_Rig_Spine_03SHJnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Monkeyman@Defeated(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_SHJntGrp
+      parentName: Monkeyman@Defeated(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_TrajectorySHJnt
+      parentName: Monkeyman_Rig_SHJntGrp
+      position: {x: 0, y: 1.056466, z: 0.048133917}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_ROOTSHJnt
+      parentName: Monkeyman_Rig_TrajectorySHJnt
+      position: {x: -0, y: -0.21598329, z: 0.021999022}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_Spine_01SHJnt
+      parentName: Monkeyman_Rig_ROOTSHJnt
+      position: {x: -0.10695328, y: 0.0022864745, z: 4.6481396e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_Spine_02SHJnt
+      parentName: Monkeyman_Rig_Spine_01SHJnt
+      position: {x: -0.10695328, y: 0.0022864745, z: 4.6481396e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_Spine_03SHJnt
+      parentName: Monkeyman_Rig_Spine_02SHJnt
+      position: {x: -0.10695328, y: 0.0022864745, z: 4.6481396e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_Spine_04SHJnt
+      parentName: Monkeyman_Rig_Spine_03SHJnt
+      position: {x: -0.10695328, y: 0.0022864745, z: 4.6481396e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_Spine_TopSHJnt
+      parentName: Monkeyman_Rig_Spine_04SHJnt
+      position: {x: -0.10695328, y: 0.0022864745, z: 4.6481396e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_l_Arm_ClavicleSHJnt
+      parentName: Monkeyman_Rig_Spine_TopSHJnt
+      position: {x: -0, y: -8.881784e-18, z: -0.08274196}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_l_Arm_ShoulderSHJnt
+      parentName: Monkeyman_Rig_l_Arm_ClavicleSHJnt
+      position: {x: -0.11252907, y: 1.4210854e-16, z: -0.039670948}
+      rotation: {x: -0.0013189912, y: -0.023929238, z: 0.016678095, w: 0.9995737}
+      scale: {x: 1, y: 0.99999934, z: 1}
+    - name: Monkeyman_Rig_l_Arm_ElbowSHJnt
+      parentName: Monkeyman_Rig_l_Arm_ShoulderSHJnt
+      position: {x: -0.3038611, y: 8.5265126e-16, z: 1.0658141e-16}
+      rotation: {x: 0.00094076176, y: 0.063035294, z: -0.0055659343, w: 0.9979953}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: Monkeyman_Rig_l_Arm_WristSHJnt
+      parentName: Monkeyman_Rig_l_Arm_ElbowSHJnt
+      position: {x: -0.2693864, y: -7.105427e-16, z: 4.2632563e-16}
+      rotation: {x: 0.0016167521, y: -0.057099268, z: -0.010418336, w: 0.9983129}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: Monkeyman_Rig_l_Finger_01_01SHJnt
+      parentName: Monkeyman_Rig_l_Arm_WristSHJnt
+      position: {x: -0.13712126, y: 0.018451685, z: 0.04196019}
+      rotation: {x: -0.010281549, y: 0.115343586, z: -0.04411725, w: 0.9922922}
+      scale: {x: 0.99999964, y: 1.0000018, z: 1.0000001}
+    - name: Monkeyman_Rig_l_Finger_01_02SHJnt
+      parentName: Monkeyman_Rig_l_Finger_01_01SHJnt
+      position: {x: -0.027809538, y: 4.6185276e-16, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: 1.3877786e-17, w: 1}
+      scale: {x: 1.0000006, y: 1.0000007, z: 0.9999999}
+    - name: Monkeyman_Rig_l_Finger_01_03SHJnt
+      parentName: Monkeyman_Rig_l_Finger_01_02SHJnt
+      position: {x: -0.027809538, y: -2.4868996e-16, z: 4.2632563e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000018, y: 1.0000001, z: 1}
+    - name: Monkeyman_Rig_l_Finger_01_04SHJnt
+      parentName: Monkeyman_Rig_l_Finger_01_03SHJnt
+      position: {x: -0.027809538, y: 2.842171e-16, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000008, y: 1.000001, z: 1}
+    - name: Monkeyman_Rig_l_Finger_02_01SHJnt
+      parentName: Monkeyman_Rig_l_Arm_WristSHJnt
+      position: {x: -0.12802671, y: 0.018759262, z: 0.010982051}
+      rotation: {x: -0.0012267496, y: 0.018923406, z: 0.004027506, w: 0.9998121}
+      scale: {x: 0.99999917, y: 1.0000008, z: 1}
+    - name: Monkeyman_Rig_l_Finger_02_02SHJnt
+      parentName: Monkeyman_Rig_l_Finger_02_01SHJnt
+      position: {x: -0.034446817, y: -1.563194e-15, z: -7.105427e-17}
+      rotation: {x: -0.00000001763722, y: -0.000000039920767, z: -8.673615e-18, w: 1}
+      scale: {x: 1.0000006, y: 0.9999992, z: 1}
+    - name: Monkeyman_Rig_l_Finger_02_03SHJnt
+      parentName: Monkeyman_Rig_l_Finger_02_02SHJnt
+      position: {x: -0.034446817, y: -1.4210854e-15, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Monkeyman_Rig_l_Finger_02_04SHJnt
+      parentName: Monkeyman_Rig_l_Finger_02_03SHJnt
+      position: {x: -0.034446817, y: 1.4210854e-16, z: 2.1316282e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: Monkeyman_Rig_l_Finger_03_01SHJnt
+      parentName: Monkeyman_Rig_l_Arm_WristSHJnt
+      position: {x: -0.121054515, y: 0.008691506, z: -0.0020926397}
+      rotation: {x: 0.004572492, y: 0.14602526, z: -0.11907828, w: 0.9820774}
+      scale: {x: 0.9999993, y: 1.0000007, z: 0.9999998}
+    - name: Monkeyman_Rig_l_Finger_03_02SHJnt
+      parentName: Monkeyman_Rig_l_Finger_03_01SHJnt
+      position: {x: -0.02152772, y: -0.0033322216, z: -0.007235292}
+      rotation: {x: -0.0062467568, y: -0.15414543, z: 0.08957851, w: 0.98395926}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Monkeyman_Rig_l_Finger_03_03SHJnt
+      parentName: Monkeyman_Rig_l_Finger_03_02SHJnt
+      position: {x: -0.027561374, y: 0.0018306264, z: 0.0012279975}
+      rotation: {x: -0.0002820068, y: 0.008069232, z: -0.0038329186, w: 0.9999601}
+      scale: {x: 1.0000012, y: 0.99999994, z: 1.0000001}
+    - name: Monkeyman_Rig_l_Finger_03_04SHJnt
+      parentName: Monkeyman_Rig_l_Finger_03_03SHJnt
+      position: {x: -0.045954805, y: -0.0007909484, z: 2.842171e-16}
+      rotation: {x: 0.0000000047774615, y: 0.000000044801027, z: 0.00860476, w: 0.99996305}
+      scale: {x: 0.9999999, y: 0.99999976, z: 1}
+    - name: Monkeyman_Rig_l_Finger_04_01SHJnt
+      parentName: Monkeyman_Rig_l_Arm_WristSHJnt
+      position: {x: -0.09862611, y: 0.0073215226, z: -0.028658215}
+      rotation: {x: -0.03262637, y: 0.055821165, z: -0.19917615, w: 0.9778284}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000011}
+    - name: Monkeyman_Rig_l_Finger_04_02SHJnt
+      parentName: Monkeyman_Rig_l_Finger_04_01SHJnt
+      position: {x: -0.026373832, y: -0.00824626, z: -0.003954479}
+      rotation: {x: 0.028713357, y: -0.15349908, z: 0.1285886, w: 0.97932553}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Monkeyman_Rig_l_Finger_04_03SHJnt
+      parentName: Monkeyman_Rig_l_Finger_04_02SHJnt
+      position: {x: -0.01503978, y: -2.842171e-16, z: 0.0033583206}
+      rotation: {x: -0.008510407, y: 0.122594565, z: -0.0065817046, w: 0.99239856}
+      scale: {x: 1.0000007, y: 1.0000011, z: 1.0000004}
+    - name: Monkeyman_Rig_l_Finger_04_04SHJnt
+      parentName: Monkeyman_Rig_l_Finger_04_03SHJnt
+      position: {x: -0.040391028, y: -0.0025078456, z: -0.0032105765}
+      rotation: {x: 0.0077058827, y: 0.08606147, z: -0.0036960584, w: 0.9962532}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Monkeyman_Rig_l_Thumb_01_01SHJnt
+      parentName: Monkeyman_Rig_l_Arm_WristSHJnt
+      position: {x: -0.075330526, y: 0.012030615, z: 0.0581929}
+      rotation: {x: 0.00055590546, y: 0.39000854, z: 0.010253642, w: 0.92075396}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000007}
+    - name: Monkeyman_Rig_l_Thumb_01_02SHJnt
+      parentName: Monkeyman_Rig_l_Thumb_01_01SHJnt
+      position: {x: -0.030058526, y: -0.00033885887, z: 0.0052788584}
+      rotation: {x: -0.010787004, y: 0.020541072, z: -0.060102955, w: 0.9979226}
+      scale: {x: 1.0000008, y: 1.0000006, z: 1.000001}
+    - name: Monkeyman_Rig_l_Thumb_01_03SHJnt
+      parentName: Monkeyman_Rig_l_Thumb_01_02SHJnt
+      position: {x: -0.020466235, y: -0.004303035, z: 0.0022025974}
+      rotation: {x: 0.0053603896, y: 0.034484297, z: 0.0688654, w: 0.9970154}
+      scale: {x: 1.0000005, y: 1.0000001, z: 0.99999964}
+    - name: Monkeyman_Rig_l_Thumb_01_04SHJnt
+      parentName: Monkeyman_Rig_l_Thumb_01_03SHJnt
+      position: {x: -0.034747634, y: -2.4158453e-15, z: 8.5265126e-16}
+      rotation: {x: 4.6566118e-10, y: -0, z: 8.4764884e-10, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: Monkeyman_Rig_r_Arm_ClavicleSHJnt
+      parentName: Monkeyman_Rig_Spine_TopSHJnt
+      position: {x: -0, y: 5.3290704e-17, z: 0.08274196}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_r_Arm_ShoulderSHJnt
+      parentName: Monkeyman_Rig_r_Arm_ClavicleSHJnt
+      position: {x: 0.11252907, y: -1.4210854e-16, z: 0.039670948}
+      rotation: {x: -0.0026002822, y: -0.029451992, z: 0.0047982032, w: 0.9995513}
+      scale: {x: 1.0000002, y: 1.0000025, z: 1.0000013}
+    - name: Monkeyman_Rig_r_Arm_ElbowSHJnt
+      parentName: Monkeyman_Rig_r_Arm_ShoulderSHJnt
+      position: {x: 0.27457365, y: 6.3948843e-16, z: -1.4210854e-16}
+      rotation: {x: 0.00027431734, y: 0.07033166, z: -0.001673515, w: 0.99752223}
+      scale: {x: 1.0000001, y: 1.0000021, z: 1.0000021}
+    - name: Monkeyman_Rig_r_Arm_WristSHJnt
+      parentName: Monkeyman_Rig_r_Arm_ElbowSHJnt
+      position: {x: 0.29408523, y: -4.2632563e-16, z: 1.4210854e-16}
+      rotation: {x: 0.0026064566, y: -0.05187259, z: -0.0034324285, w: 0.9986444}
+      scale: {x: 0.99999976, y: 1.0000013, z: 1.0000018}
+    - name: joint1
+      parentName: Monkeyman_Rig_r_Arm_WristSHJnt
+      position: {x: -0.08127265, y: 0.08900316, z: 0.33206007}
+      rotation: {x: -1, y: 0.00029112268, z: 0.000020891563, w: -0.000015229176}
+      scale: {x: 1.0000029, y: 0.99999946, z: 0.9999994}
+    - name: Monkeyman_Rig_r_Finger_02_01SHJnt
+      parentName: Monkeyman_Rig_r_Arm_WristSHJnt
+      position: {x: 0.15782103, y: -0.00009232532, z: -0.014298788}
+      rotation: {x: -0.0043785432, y: 0.016284212, z: -0.0664163, w: 0.99764955}
+      scale: {x: 1.0000054, y: 0.9999965, z: 1.0000014}
+    - name: Monkeyman_Rig_r_Finger_02_02SHJnt
+      parentName: Monkeyman_Rig_r_Finger_02_01SHJnt
+      position: {x: 0.020508574, y: 0.00599074, z: -6.4659385e-14}
+      rotation: {x: -0.000000067055225, y: 0.000000024214387, z: 0.010115306, w: 0.9999489}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000011}
+    - name: Monkeyman_Rig_r_Finger_02_03SHJnt
+      parentName: Monkeyman_Rig_r_Finger_02_02SHJnt
+      position: {x: 0.025323855, y: 0.0046558203, z: -8.1286086e-14}
+      rotation: {x: -0.000000028831057, y: -0.00000018342021, z: 0.017403008, w: 0.99984854}
+      scale: {x: 0.9999971, y: 1.0000033, z: 1.0000002}
+    - name: Monkeyman_Rig_r_Finger_02_04SHJnt
+      parentName: Monkeyman_Rig_r_Finger_02_03SHJnt
+      position: {x: 0.02244956, y: 0.0014736652, z: -2.7853274e-14}
+      rotation: {x: -0, y: -0, z: -2.2185425e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_r_Finger_03_01SHJnt
+      parentName: Monkeyman_Rig_r_Arm_WristSHJnt
+      position: {x: 0.12986377, y: -0.0000751936, z: 0.013769652}
+      rotation: {x: -0.029281367, y: -0.019164672, z: 0.037338953, w: 0.9986897}
+      scale: {x: 1.0000042, y: 0.9999973, z: 1.000001}
+    - name: Monkeyman_Rig_r_Finger_03_02SHJnt
+      parentName: Monkeyman_Rig_r_Finger_03_01SHJnt
+      position: {x: 0.03188669, y: 2.131628e-15, z: 5.684342e-16}
+      rotation: {x: -0.000000048428774, y: 0.0055297846, z: -0.0027964304, w: 0.9999808}
+      scale: {x: 0.99999917, y: 1.0000018, z: 1.000001}
+    - name: Monkeyman_Rig_r_Finger_03_03SHJnt
+      parentName: Monkeyman_Rig_r_Finger_03_02SHJnt
+      position: {x: 0.027501516, y: 0.0011813849, z: 0.0023365074}
+      rotation: {x: -0.000000011302346, y: -0.0055306545, z: 0.002796556, w: 0.9999808}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000012}
+    - name: Monkeyman_Rig_r_Finger_03_04SHJnt
+      parentName: Monkeyman_Rig_r_Finger_03_03SHJnt
+      position: {x: 0.03188669, y: 1.2256862e-15, z: 5.684342e-16}
+      rotation: {x: -0.000000002437146, y: 0.07524043, z: 0.0000000012796193, w: 0.9971655}
+      scale: {x: 1.0000015, y: 1.0000004, z: 1.000001}
+    - name: Monkeyman_Rig_r_Finger_01_01SHJnt
+      parentName: Monkeyman_Rig_r_Arm_WristSHJnt
+      position: {x: 0.122245274, y: -0.00007185947, z: -0.022473212}
+      rotation: {x: 0.0000028118955, y: 0.06227415, z: -0.00029109095, w: 0.9980591}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000006}
+    - name: Monkeyman_Rig_r_Finger_01_02SHJnt
+      parentName: Monkeyman_Rig_r_Finger_01_01SHJnt
+      position: {x: 0.04224419, y: 4.8672178e-15, z: -0.004697557}
+      rotation: {x: 0.004667229, y: 0.06299563, z: 0.041971076, w: 0.99711996}
+      scale: {x: 1.0000044, y: 0.99999636, z: 1.0000006}
+    - name: Monkeyman_Rig_r_Finger_01_03SHJnt
+      parentName: Monkeyman_Rig_r_Finger_01_02SHJnt
+      position: {x: 0.037483983, y: -0.004763648, z: 0.002981659}
+      rotation: {x: 0.007395317, y: 0.034633286, z: -0.037637513, w: 0.9986637}
+      scale: {x: 0.999998, y: 1.0000019, z: 1}
+    - name: Monkeyman_Rig_r_Finger_01_04SHJnt
+      parentName: Monkeyman_Rig_r_Finger_01_03SHJnt
+      position: {x: 0.03490802, y: 0.00030236784, z: 0.0071372287}
+      rotation: {x: 0.000000004911564, y: -0.12218017, z: 0.00000009399103, w: 0.99250793}
+      scale: {x: 1.0000004, y: 1, z: 0.99999875}
+    - name: Monkeyman_Rig_r_Finger_04_01SHJnt
+      parentName: Monkeyman_Rig_r_Arm_WristSHJnt
+      position: {x: 0.09696232, y: 0.00502468, z: 0.03964041}
+      rotation: {x: -0.03322297, y: -0.12610826, z: 0.13776584, w: 0.9818419}
+      scale: {x: 1.000001, y: 1.000001, z: 1.0000019}
+    - name: Monkeyman_Rig_r_Finger_04_02SHJnt
+      parentName: Monkeyman_Rig_r_Finger_04_01SHJnt
+      position: {x: 0.017308993, y: -0.004397723, z: -0.0036527677}
+      rotation: {x: 0.025368456, y: 0.14202724, z: -0.050787967, w: 0.98823345}
+      scale: {x: 1.0000002, y: 0.99999905, z: 0.99999946}
+    - name: Monkeyman_Rig_r_Finger_04_03SHJnt
+      parentName: Monkeyman_Rig_r_Finger_04_02SHJnt
+      position: {x: 0.03562177, y: -0.0043953955, z: 0.005501711}
+      rotation: {x: 0.008518819, y: -0.06073515, z: -0.10367657, w: 0.9927184}
+      scale: {x: 1.0000013, y: 0.99999917, z: 1.0000005}
+    - name: Monkeyman_Rig_r_Finger_04_04SHJnt
+      parentName: Monkeyman_Rig_r_Finger_04_03SHJnt
+      position: {x: 0.025166148, y: 0.0037692483, z: -0.0001402464}
+      rotation: {x: 0.015264043, y: 0.08234395, z: -0.006389833, w: 0.99646664}
+      scale: {x: 1.000001, y: 1.0000006, z: 0.99999994}
+    - name: Monkeyman_Rig_r_Thumb_01_01SHJnt
+      parentName: Monkeyman_Rig_r_Arm_WristSHJnt
+      position: {x: 0.0721209, y: -0.00004348146, z: -0.04900405}
+      rotation: {x: -0.04404861, y: 0.34941107, z: -0.086566955, w: 0.9319215}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000005}
+    - name: Monkeyman_Rig_r_Thumb_01_02SHJnt
+      parentName: Monkeyman_Rig_r_Thumb_01_01SHJnt
+      position: {x: 0.03328679, y: 0.011889681, z: -0.0077460753}
+      rotation: {x: 0.033884235, y: 0.0075130765, z: 0.15713894, w: 0.98696643}
+      scale: {x: 1, y: 0.9999996, z: 1.0000014}
+    - name: Monkeyman_Rig_r_Thumb_01_03SHJnt
+      parentName: Monkeyman_Rig_r_Thumb_01_02SHJnt
+      position: {x: 0.03459295, y: -0.0019656296, z: -0.0073653143}
+      rotation: {x: -0.0102094365, y: 0.110092685, z: -0.077330664, w: 0.9908559}
+      scale: {x: 1.0000001, y: 1, z: 1.0000011}
+    - name: Monkeyman_Rig_r_Thumb_01_04SHJnt
+      parentName: Monkeyman_Rig_r_Thumb_01_03SHJnt
+      position: {x: 0.031232428, y: 0.0044271904, z: 0.0021794215}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: Monkeyman_Rig_Neck_01SHJnt
+      parentName: Monkeyman_Rig_Spine_TopSHJnt
+      position: {x: -0.06781434, y: 0.013949647, z: 2.3920732e-17}
+      rotation: {x: 0.000000014901161, y: -0.000000014901161, z: -0.3634584, w: 0.93161047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_Neck_02SHJnt
+      parentName: Monkeyman_Rig_Neck_01SHJnt
+      position: {x: -0.033616442, y: -0.04555074, z: 3.515729e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_Neck_TopSHJnt
+      parentName: Monkeyman_Rig_Neck_02SHJnt
+      position: {x: 0.002554487, y: -0.036079776, z: 1.4888219e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_Head_JawSHJnt
+      parentName: Monkeyman_Rig_Neck_TopSHJnt
+      position: {x: -0.09777107, y: -0.009365188, z: 5.193408e-16}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1.0000019, y: 1.0000005, z: 1.0000014}
+    - name: Monkeyman_Rig_Head_JawEndSHJnt
+      parentName: Monkeyman_Rig_Head_JawSHJnt
+      position: {x: -0.04682594, y: -0.032590356, z: -2.5327794e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.000001, y: 1, z: 1.000001}
+    - name: Monkeyman_Rig_Head_TopSHJnt
+      parentName: Monkeyman_Rig_Neck_TopSHJnt
+      position: {x: -0.19554214, y: 0, z: 8.6838155e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_Rig_l_Eye_01SHJnt
+      parentName: Monkeyman_Rig_Head_TopSHJnt
+      position: {x: 0.06518071, y: -0.06403448, z: -0.04535736}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1.0000019, y: 1.0000005, z: 1.0000014}
+    - name: Monkeyman_Rig_r_Eye_01SHJnt
+      parentName: Monkeyman_Rig_Head_TopSHJnt
+      position: {x: 0.06518071, y: -0.06403448, z: 0.04535736}
+      rotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1.0000019, y: 1.0000005, z: 1.0000014}
+    - name: Monkeyman_Rig_Tail_ClavicleSHJnt
+      parentName: Monkeyman_Rig_Spine_01SHJnt
+      position: {x: -0.0001357337, y: 0.13052729, z: -0.0002025415}
+      rotation: {x: 0.82719827, y: -0.56190944, z: 0.0005148053, w: 0.00075787306}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Monkeyman_Rig_Tail_ShoulderSHJnt
+      parentName: Monkeyman_Rig_Tail_ClavicleSHJnt
+      position: {x: -0.05025283, y: 0.06295872, z: 0.00023236912}
+      rotation: {x: -0.65185064, y: 0.24876326, z: 0.25454232, w: -0.6696386}
+      scale: {x: 1.0000012, y: 1.0000014, z: 1.0000033}
+    - name: Monkeyman_Rig_Tail_ElbowSHJnt
+      parentName: Monkeyman_Rig_Tail_ShoulderSHJnt
+      position: {x: -0.22653133, y: -9.5479175e-17, z: -1.7408296e-15}
+      rotation: {x: -0.000000029802322, y: 0.11645928, z: 0.000000014901161, w: 0.99319553}
+      scale: {x: 1.0000007, y: 1.0000013, z: 1.0000017}
+    - name: Monkeyman_Rig_Tail_WristSHJnt
+      parentName: Monkeyman_Rig_Tail_ElbowSHJnt
+      position: {x: -0.20733705, y: -5.5511148e-18, z: -2.1316282e-16}
+      rotation: {x: 0.67705894, y: -0.16908492, z: -0.17689621, w: -0.69405276}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1.0000002}
+    - name: Monkeyman_Rig_l_Leg_HipSHJnt
+      parentName: Monkeyman_Rig_ROOTSHJnt
+      position: {x: -0.033601068, y: -1.7763568e-17, z: -0.11567123}
+      rotation: {x: 0.010323375, y: -0.70703447, z: 0.7070315, w: 0.010112683}
+      scale: {x: 1.0000024, y: 1.0000017, z: 0.99999964}
+    - name: Monkeyman_Rig_l_Leg_KneeSHJnt
+      parentName: Monkeyman_Rig_l_Leg_HipSHJnt
+      position: {x: -0.37861717, y: -3.907985e-16, z: 7.440945e-12}
+      rotation: {x: 0.000000039246512, y: -0.0000047772187, z: 0.00000014016403, w: 1}
+      scale: {x: 1.0000023, y: 1.0000012, z: 1.0000004}
+    - name: Monkeyman_Rig_l_Leg_AnkleSHJnt
+      parentName: Monkeyman_Rig_l_Leg_KneeSHJnt
+      position: {x: -0.37861717, y: -2.1316282e-16, z: 7.44123e-12}
+      rotation: {x: 0.0000021159742, y: 0.00015375907, z: 0.014450335, w: 0.9998956}
+      scale: {x: 0.99999976, y: 1.0000004, z: 1}
+    - name: Monkeyman_Rig_l_Leg_BallSHJnt
+      parentName: Monkeyman_Rig_l_Leg_AnkleSHJnt
+      position: {x: -0.07058761, y: 0.008257118, z: -0.020747859}
+      rotation: {x: 0.000000014771672, y: 0.70710677, z: 0.000000023624807, w: 0.7071068}
+      scale: {x: 0.99999964, y: 0.9999992, z: 0.99999857}
+    - name: Monkeyman_Rig_l_Leg_ToeSHJnt
+      parentName: Monkeyman_Rig_l_Leg_BallSHJnt
+      position: {x: -0.20856714, y: 0.015672496, z: -0.021132}
+      rotation: {x: -0, y: -0, z: 8.881784e-16, w: 1}
+      scale: {x: 0.99999976, y: 1, z: 0.99999976}
+    - name: Monkeyman_Rig_r_Leg_HipSHJnt
+      parentName: Monkeyman_Rig_ROOTSHJnt
+      position: {x: -0.032503933, y: 7.9936054e-17, z: 0.11307296}
+      rotation: {x: 0.7070108, y: 0.01186149, z: 0.011650502, w: -0.7070073}
+      scale: {x: 1.0000025, y: 1.0000037, z: 1.0000075}
+    - name: Monkeyman_Rig_r_Leg_KneeSHJnt
+      parentName: Monkeyman_Rig_r_Leg_HipSHJnt
+      position: {x: 0.3781195, y: -8.171241e-16, z: 1.4210854e-16}
+      rotation: {x: 0.000000059604638, y: -0.0000047180797, z: 0.00000008475035, w: 1}
+      scale: {x: 1.0000026, y: 1.0000006, z: 0.99999994}
+    - name: Monkeyman_Rig_r_Leg_AnkleSHJnt
+      parentName: Monkeyman_Rig_r_Leg_KneeSHJnt
+      position: {x: 0.3781195, y: -3.0198067e-16, z: 1.5987211e-16}
+      rotation: {x: 0.0000024924493, y: 0.00015390418, z: 0.016625402, w: 0.99986184}
+      scale: {x: 1.0000013, y: 1.000002, z: 1.0000049}
+    - name: Monkeyman_Rig_r_Leg_BallSHJnt
+      parentName: Monkeyman_Rig_r_Leg_AnkleSHJnt
+      position: {x: 0.07058761, y: -0.011025118, z: 0.020747859}
+      rotation: {x: 0.0000000010805933, y: 0.70710677, z: -0.0000000106376765, w: 0.7071068}
+      scale: {x: 1.0000001, y: 1, z: 1.0000007}
+    - name: Monkeyman_Rig_r_Leg_ToeSHJnt
+      parentName: Monkeyman_Rig_r_Leg_BallSHJnt
+      position: {x: 0.20856714, y: -0.00361673, z: 0.021132}
+      rotation: {x: -0, y: -0, z: 1.1102229e-16, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: Monkeyman_V3:group
+      parentName: Monkeyman@Defeated(Clone)
+      position: {x: -0.000000038146972, y: 0.9409954, z: -0.0023982227}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:Body
+      parentName: Monkeyman_V3:group
+      position: {x: 0.000000038146972, y: -0.9409954, z: 0.0023982227}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:Rope_Belt_low:Group33476
+      parentName: Monkeyman_V3:group
+      position: {x: 0.000000042915342, y: 0.0067223357, z: -0.0000000071667787}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 10.528116, y: 10.528116, z: 10.528116}
+    - name: Monkeyman_V3:Monkeyman_V3:Belt 1
+      parentName: Monkeyman_V3:Monkeyman_V3:Rope_Belt_low:Group33476
+      position: {x: -0.0000000047683715, y: -0.08977769, z: 0.0023982297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:transform7
+      parentName: Monkeyman_V3:Monkeyman_V3:Belt 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:Crown
+      parentName: Monkeyman_V3:Monkeyman_V3:Rope_Belt_low:Group33476
+      position: {x: -0.0000000047683715, y: -0.08977769, z: 0.0023982297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:transform1
+      parentName: Monkeyman_V3:Monkeyman_V3:Crown
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:L_Bracelate
+      parentName: Monkeyman_V3:Monkeyman_V3:Rope_Belt_low:Group33476
+      position: {x: -0.0000000047683715, y: -0.08977769, z: 0.0023982297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:R_Bracelet
+      parentName: Monkeyman_V3:Monkeyman_V3:Rope_Belt_low:Group33476
+      position: {x: -0.0000000047683715, y: -0.08977769, z: 0.0023982297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:R_Shoe
+      parentName: Monkeyman_V3:Monkeyman_V3:Rope_Belt_low:Group33476
+      position: {x: -0.0000000047683715, y: -0.08977769, z: 0.0023982297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:Toupee1 1
+      parentName: Monkeyman_V3:Monkeyman_V3:Rope_Belt_low:Group33476
+      position: {x: -0.0000000047683715, y: -0.08977769, z: 0.0023982297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:transform3
+      parentName: Monkeyman_V3:Monkeyman_V3:Toupee1 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:Toupee2
+      parentName: Monkeyman_V3:Monkeyman_V3:Rope_Belt_low:Group33476
+      position: {x: -0.0000000047683715, y: -0.08977769, z: 0.0023982297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:transform2
+      parentName: Monkeyman_V3:Monkeyman_V3:Toupee2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:Trousers
+      parentName: Monkeyman_V3:Monkeyman_V3:Rope_Belt_low:Group33476
+      position: {x: -0.0000000047683715, y: -0.08977769, z: 0.0023982297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:transform6
+      parentName: Monkeyman_V3:Monkeyman_V3:Trousers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:Belt
+      parentName: Monkeyman@Defeated(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:Toupee1
+      parentName: Monkeyman@Defeated(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monkeyman_V3:Monkeyman_V3:Vest
+      parentName: Monkeyman@Defeated(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface108
+      parentName: Monkeyman@Defeated(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere4
+      parentName: Monkeyman@Defeated(Clone)
+      position: {x: -0.9594757, y: 1.0242443, z: -0.0000000063237757}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0535873, z: 1}
+    - name: polySurface105
+      parentName: pSphere4
+      position: {x: 0.59461033, y: -1.0038983, z: 0.0000000063237757}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform103
+      parentName: polySurface105
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface106
+      parentName: pSphere4
+      position: {x: 0.59461033, y: -1.0038983, z: 0.0000000063237757}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform104
+      parentName: polySurface106
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface107
+      parentName: pSphere4
+      position: {x: 0.59461033, y: -1.0038983, z: 0.0000000063237757}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform106
+      parentName: polySurface107
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface108 1
+      parentName: pSphere4
+      position: {x: 0.59461033, y: -1.0038983, z: 0.0000000063237757}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform107
+      parentName: polySurface108 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface109
+      parentName: pSphere4
+      position: {x: 0.59461033, y: -1.0038983, z: 0.0000000063237757}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform105
+      parentName: polySurface109
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform102
+      parentName: pSphere4
+      position: {x: 0.59461033, y: -1.0038983, z: 0.0000000063237757}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -316,10 +1316,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
